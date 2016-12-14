@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C79F7082-D06E-4BBD-8350-49D4836E00F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{66B81863-521C-489A-9342-2D5D142147B8}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "JWT", "src\JWT\JWT.xproj", "{3CAE5CA5-A28C-47C7-A9CE-4A104DA74018}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CAE5CA5-A28C-47C7-A9CE-4A104DA74018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CAE5CA5-A28C-47C7-A9CE-4A104DA74018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CAE5CA5-A28C-47C7-A9CE-4A104DA74018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CAE5CA5-A28C-47C7-A9CE-4A104DA74018}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3CAE5CA5-A28C-47C7-A9CE-4A104DA74018} = {C79F7082-D06E-4BBD-8350-49D4836E00F0}
+	EndGlobalSection
+EndGlobal
